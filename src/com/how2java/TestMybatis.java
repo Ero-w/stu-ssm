@@ -23,6 +23,6 @@ public class TestMybatis {
         for (Category c : cs) {
             System.out.println(c.getName());
         }
-         
+       test
     }
 }
