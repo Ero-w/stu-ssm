@@ -1,4 +1,4 @@
-package com.how2java;
+package com.java;
  
 import java.io.IOException;
 import java.io.InputStream;
@@ -8,8 +8,8 @@ import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
- 
-import com.how2java.pojo.Category;
+
+import com.java.pojo.Category;
  
 public class TestMybatis {
  
@@ -23,6 +23,6 @@ public class TestMybatis {
         for (Category c : cs) {
             System.out.println(c.getName());
         }
-       test
+       
     }
 }
