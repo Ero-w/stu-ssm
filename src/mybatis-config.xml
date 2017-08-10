@@ -4,7 +4,7 @@ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
 "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
     <typeAliases>
-      <package name="com.how2java.pojo"/>
+      <package name="com.java.pojo"/>
     </typeAliases>
     <environments default="development">
         <environment id="development">
