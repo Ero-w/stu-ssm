@@ -19,7 +19,7 @@ public class TestMybatis {
         SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
         SqlSession session=sqlSessionFactory.openSession();
          
-        List<Category> cs=session.selectList("listCategory");
+        List<Category> cs=session.selectList("getproduct");
         for (Category c : cs) {
             System.out.println(c.getName());
         }
